@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">DailyOutComing</string>
+    <string name="daily" translatable="false">Daily</string>
+    <string name="filter_button" translatable="false">Filter Button</string>
+    <string name="menu_drawable" translatable="false">Menu Drawable</string>
+    <string name="incoming" translatable="false">Incoming</string>
+    <string name="_30_000" translatable="false">30 000</string>
+    <string name="outcoming" translatable="false">Outcoming</string>
+    <string name="_50_000" translatable="false">50 000</string>
+    <string name="uzs" translatable="false">UZS</string>
+    <string name="addBtn" translatable="false">addBtn</string>
+    <string name="add_intcoming" translatable="false">Add intcoming</string>
+    <string name="add_outcoming" translatable="false">Add outcoming</string>
+    <string name="today_total_expense" translatable="false">today total expense</string>
+    <string name="menu" translatable="false">menu</string>
+    <string name="image" translatable="false">image</string>
+    <string name="_11_10_2025" translatable="false">11.10.2025</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="intcoming_screen">Incoming Screen</string>
+    <string name="outcoming_add">Add Expense</string>
+    <string name="incoming_add">Add Income</string>
+    <string name="name_text">Ubaydullayev Jasurbek</string>
+    <string name="backBtn">Back</string>
+    <string name="xarajat">Create Expense Type</string>
+    <string name="language">Change Language</string>
+    <string name="theme">Change Theme</string>
+    <string name="log_out">Log out</string>
+    <string name="xarajat_nomi">Expense Name</string>
+    <string name="chiqim_turi">Expense Type</string>
+    <string name="sana">Date</string>
+    <string name="summa">Amount</string>
+    <string name="qo_shish">Add</string>
+    <string name="summa_hint">Enter the amount</string>
+    <string name="select_category">Select Category</string>
+    <string name="chiqim_ro_yhatlari">Expense List</string>
+    <string name="expense_item">Expense Item</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="yearconst">2025</string>
+    <string name="month">October</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="overview">Overview</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="type_of_expenses">Type of Expenses</string>
+
+    <string name="xarajat_tavsifi" translatable="false">Expense user</string>
+    <string name="valuta" translatable="false">Valuta</string>
+    <string name="valuta_name" translatable="false">Valuta Name</string>
+    <string name="valuta_qiymatini_kiriting">Valuta qiymatini kiriting:</string>
+    <string name="_1">1</string>
+    <string name="empty_state">empty_state</string>
+    <string name="from_data">From Data</string>
+    <string name="to_data">To Data</string>
+    <string name="filter">Filter</string>
+    <string name="usd">USD</string>
+    <string name="vergul">/</string>
+    <string name="_1_00">1.00</string>
+
+    <string-array name="int_valyuta">
+        <item>UZS</item>
+        <item>USD</item>
+        <item>EURO</item>
+    </string-array>
+
+    <string-array name="top_currencies">
+        <item>USD</item>
+        <item>EUR </item>
+        <item>GBP </item>
+        <item>JPY</item>
+        <item>CHF </item>
+        <item>CNY </item>
+        <item>RUB </item>
+        <item>KZT</item>
+        <item>TRY</item>
+        <item>AED</item>
+    </string-array>
+
+</resources>

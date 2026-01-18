@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">DailyOutComing</string>
+        <string name="edit">Tahrirlash</string>
+        <string name="delete">O‘chirish</string>
+        <string name="share">Ulashish</string>
+        <string name="intcoming_screen">Kirim oynasi</string>
+        <string name="outcoming_add">Chiqim qo‘shish</string>
+        <string name="incoming_add">Kirim qo‘shish</string>
+        <string name="name_text">Ubaydullayev Jasurbek</string>
+        <string name="backBtn">Orqaga</string>
+        <string name="xarajat">Xarajat turini yaratish</string>
+        <string name="language">Tilni o‘zgartirish</string>
+        <string name="theme">Rangini o‘zgartirish</string>
+        <string name="log_out">Tizimdan chiqish</string>
+        <string name="xarajat_nomi">Xarajat nomi</string>
+        <string name="chiqim_turi">Chiqim turi</string>
+        <string name="sana">Sana</string>
+        <string name="summa">Summa</string>
+        <string name="qo_shish">Qo‘shish</string>
+        <string name="summa_hint">Summani kiriting</string>
+        <string name="select_category">Chiqim turini tanlang</string>
+        <string name="chiqim_ro_yhatlari">Chiqim ro‘yxatlari</string>
+        <string name="expense_item">Xarajat elementi</string>
+        <string name="account_balance">Hisob balansi</string>
+        <string name="yearconst">2025</string>
+        <string name="month">Oktyabr</string>
+        <string name="income">Kirim</string>
+        <string name="expenses">Chiqim</string>
+        <string name="overview">Umumiy ko‘rinish</string>
+        <string name="dark_mode">Qorong‘i rejim</string>
+        <string name="type_of_expenses">Xarajat turlari</string>
+
+
+</resources>

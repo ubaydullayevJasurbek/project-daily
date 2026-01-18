@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">DailyOutComing</string>
+        <string name="edit">Редактировать</string>
+        <string name="delete">Удалить</string>
+        <string name="share">Поделиться</string>
+        <string name="intcoming_screen">Экран доходов</string>
+        <string name="outcoming_add">Добавить расход</string>
+        <string name="incoming_add">Добавить доход</string>
+        <string name="name_text">Убайдуллаев Жасурбек</string>
+        <string name="backBtn">Назад</string>
+        <string name="xarajat">Создать тип расхода</string>
+        <string name="language">Изменить язык</string>
+        <string name="theme">Изменить тему</string>
+        <string name="log_out">Выйти</string>
+        <string name="xarajat_nomi">Название расхода</string>
+        <string name="chiqim_turi">Тип расхода</string>
+        <string name="sana">Дата</string>
+        <string name="summa">Сумма</string>
+        <string name="qo_shish">Добавить</string>
+        <string name="summa_hint">Введите сумму</string>
+        <string name="select_category">Выберите категорию</string>
+        <string name="chiqim_ro_yhatlari">Список расходов</string>
+        <string name="expense_item">Элемент расхода</string>
+        <string name="account_balance">Баланс счета</string>
+        <string name="yearconst">2025</string>
+        <string name="month">Октябрь</string>
+        <string name="income">Доход</string>
+        <string name="expenses">Расходы</string>
+        <string name="overview">Обзор</string>
+        <string name="dark_mode">Темный режим</string>
+        <string name="type_of_expenses">Типы расходов</string>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="8dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="14dp"
+    app:cardUseCompatPadding="true"
+    app:strokeColor="#C8C2C2"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/flag_imageItem"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/from_data"
+            android:src="@drawable/usa_flag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/itemCrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/usd"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="@id/flag_imageItem"
+            app:layout_constraintTop_toBottomOf="@id/flag_imageItem" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="@string/vergul"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/itemCrr"
+            app:layout_constraintBaseline_toBaselineOf="@id/itemCrr" />
+
+        <TextView
+            android:id="@+id/item_curVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="@string/uzs"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/textView2"
+            app:layout_constraintBaseline_toBaselineOf="@id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/_1_00"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/itemCrr"
+            app:layout_constraintTop_toBottomOf="@id/itemCrr" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/usd"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/textView3"
+            app:layout_constraintStart_toEndOf="@id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/from_data"
+            android:src="@drawable/right_ic"
+            app:layout_constraintTop_toTopOf="@id/textView3"
+            app:layout_constraintBottom_toBottomOf="@id/textView3"
+            app:layout_constraintStart_toEndOf="@id/textView4"
+            app:layout_constraintEnd_toStartOf="@id/summaItem"
+            app:layout_constraintHorizontal_chainStyle="packed" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="4dp"
+            android:contentDescription="@string/from_data"
+            android:src="@drawable/uzb_flag_ic"
+            app:layout_constraintStart_toEndOf="@+id/flag_imageItem"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/summaItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_30_000"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/textView3"
+            app:layout_constraintBottom_toBottomOf="@id/textView3"
+            app:layout_constraintEnd_toStartOf="@id/textView8" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uzs"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/summaItem"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageButton
+            android:id="@+id/editItemDialog"
+            android:background="@android:color/transparent"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="@string/edit"
+            android:src="@drawable/ic_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

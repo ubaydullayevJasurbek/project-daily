@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Asosiy ranglar -->
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryVariant">#2196F3</color>
+    <color name="colorSecondary">#03A9F4</color>
+    <color name="colorSecondaryVariant">#B3E5FC</color>
+
+    <!-- Qo‘shimcha asosiy ranglar -->
+    <color name="primary">#2196F3</color>
+    <color name="primaryDark">#1976D2</color>
+    <color name="accent">#03A9F4</color>
+
+    <!-- Fon ranglari -->
+    <color name="background">#F8FAFF</color>
+    <color name="surface">#F5F5F5</color>
+
+    <!-- Matn ranglari -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Tugmalar, ikonlar -->
+    <color name="buttonBackground">@color/colorPrimary</color>
+    <color name="buttonText">@android:color/white</color>
+
+    <!-- Qo‘shimcha ranglar -->
+    <color name="divider">#E0E0E0</color>
+    <color name="green">#2ECC71</color>
+    <color name="gray">#757575</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="red_500">#F44336</color>
+    <color name="green_500">#4CAF50</color>
+
+    <!-- Standart ranglar -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="unselectedColor">#9C21F3</color>
+</resources>
